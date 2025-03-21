@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="ar" dir='rtl'>
 <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Beiruti:wght@200..900&family=Cairo+Play:wght@200..1000&family=Cairo:wght@200..1000&family=El+Messiri:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap" rel="stylesheet">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,7 +19,7 @@
   padding: 0 0 0 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: "Cairo", sans-serif;
 }
 .top{
   width: 100%;
@@ -229,7 +232,7 @@ flex-wrap: wrap;
   outline: none;
 }
 .footer .form button{
-  width: 305px;
+  width: 242px;
   height: 40px;
   border-radius: 8px;
   background: #414EE2;
@@ -486,9 +489,15 @@ flex-wrap: wrap;
     <input type="email" placeholder="البريد الالكتروني
     "/>
     <input type="number" placeholder="الهاتف">
-    <button type="submit">
+    <button type="submit" class="btn">
       سجل الآن      
     </button>
+      <script>
+    let btn= document.querySelector('.btn');
+    btn.onclick = function(){
+      alert('achno darti  khassarti hadchi hhhhh 🤪🤪🤪🤪🤪')
+    }
+  </script>
   </div>
 </div>
 
