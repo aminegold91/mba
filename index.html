@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="ar" dir='rtl'>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <title>MBA academy </title>
+  
+  <link rel="icon" href=" https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_-pYsJzmHryf_FHo7mLxw3vwhyphenhyphenbw7C15svA3yJtQSNqP7UpDKx256N-lDUv5qLZAGsFsIziU-nRmR7URHwmY6lW2XhAsL8eg50EGNDSKd0rfvC_x3v09nljLSLMOPS6IPB_6CEHEd-VHIY62tnp-EajZyp_KKaaGf6wMGWZ8w9Q51W4eVfE5-QlI3t50Z/s320/WhatsApp%20Image%202025-03-20%20at%2018.57.02_18961a1d.jpg">
+  <link rel="stylesheet" href="style.css">
+  
+  <style>
+    *{
+  padding: 0 0 0 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.top{
+  width: 100%;
+  height: 100vh; 
+  background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgs3QRp2DDm9cEpldsZRkcNpLIbUbKMI2oJGPjj2RMnLvHtUUu5fuDLNJmneS7kIvesGtJZFgSciA3qgeKXolWB6oZEH_JINHv88azaCDtAo-rTU9j-2ERr69t-6hE76eDzzVbL_HWwhXqvJOxE7kjBUvmNukzENDsEdXMTFLOT6o9EYx7hePyTurdxR0lL/s320/%D8%A7%D9%84%D9%85%D9%86%D8%B5%D8%A9%20%D9%85%D9%83%D8%A7%D9%86%20%D9%85%D9%85%D8%AA%D8%B9%20%D9%84%D9%84%D8%AA%D8%B9%D9%84%D9%85%20%281%29.png");
+
+  /* background-image: url("https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=1200&q=80"); */
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, .1);
+  background-position: center;
+  color: #fff;
+}
+.top h1{
+  text-align: center;
+  padding: 35px 30px;
+  max-width: 768px;
+  margin: 0 auto;
+}
+.top p{
+  text-align: center;
+  padding: 0px 40px;
+  font-weight: 200;
+  margin: 20px auto;
+  max-width: 768px;
+} 
+.top .date{
+  margin: 30px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-weight: 200;
+  width: 320px;
+  
+}
+
+.cadr{
+  overflow: hidden;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 290px;
+  padding: 10px;
+  margin: 10px auto;
+
+}
+.cadr iframe{
+  border-radius: 8px;
+  border: 2px solid ;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 20px;
+}
+h3{
+  text-align: center;
+  margin: 25px 0;
+}
+.box{
+  padding: 25px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+.box p{
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 425px;
+  margin: 15px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, .2);
+  width: 300px;
+  
+}
+.box p i{
+  font-size: 16px;
+  color: #4597FF;
+  padding-right: 10px;
+  line-height: 20px;
+}
+.bonus{
+  background: #eee;
+  padding: 10px;
+}
+.bonus .boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.bonus .box{
+  max-width: 425px;
+  box-shadow: 1px 0 5px rgba(0, 0, 0, .2);
+  background: #fff;
+  padding: 20px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 8px;
+}
+.bonus .box .icon{
+  
+  font-size: 40px;
+  color: #4597FF;
+  padding: 20px;
+}
+.bonus .box .icon,.txt{
+  width: 100%;
+  text-align: center;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.flex .box .content{
+    max-width: 425px;
+    margin: 0px 20px;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .1);
+    font-size: 14px;
+    /* background-color: rgb(250, 250, 253); */
+}
+
+.flex .box .content .etoil{
+    color: #ffe645;
+}
+.bonus .boxes .box .c-img{
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  margin: 15px;
+  border: 2px solid
+}
+.bonus .boxes .box .c-img img{
+  width: 110%;
+  height: 110%;
+  object-fit: cover;
+  background-position: center;
+}
+.bonus .boxes .box .name{
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+  background: #eee;
+  line-height: 50px;
+  padding-left: 15px;
+}
+.flexb{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+.flexb .box-img{
+  max-width: 350px;
+  margin: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.flexb .box-img img{
+  width: 100%;
+}
+.flexb .box-img .titl{
+  padding: 15px 0 8px 15px;
+  font-weight: 900;
+}
+.flexb .box-img p {
+  padding: 0 0 15px 15px;
+}
+.footer{
+  background: teal;
+  width: 100%;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+}
+.footer .form{
+  background: #fff;
+  max-width: 425px;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 10px auto;
+}
+.footer .form input{
+  width: 300px;
+  margin: 10px auto;
+  height: 45px;
+  border-radius: 8px;
+  border: .5px solid grey;
+  padding-left: 15px;
+  outline: none;
+}
+.footer .form button{
+  width: 305px;
+  height: 40px;
+  border-radius: 8px;
+  background: #414EE2;
+  color: #fff;
+  border: none;
+}
+</style>
+  
+  
+</head>
+  
+
+<body>
+      
+
+  <div class="top">
+    <h1 dir='rtl'>
+      
+كلشي خدام فالأنترنت ولكن ماشي كلشي كينجح !
+      <br>
+
+      دخل تعرف علاش
+
+      مع الخبير
+       <span style='color:red;'>
+      عبد الرحيم   
+       </span>
+    </h1>
+    <p>
+فرصة ذهبية! انضم لندوة حصرية ومجانية مع عبد الرحيم خالد واكتشف أسرار النجاح عبر الإنترنت وكيفية تحقيق نتائج مبهرة
+</p>
+    <div class="date">
+      <div class="dt">
+        <span>
+          <i class='bx bxs-calendar'></i>
+        </span>
+        15 Avril 2025
+      </div>
+      <div class="time">
+        <span>
+          <i class='bx bx-time-five'></i>
+        </span>
+        21:00 ( Maroc )
+      </div>
+    </div>
+    
+    <div class="cadr">
+      
+      <iframe  src="https://www.youtube.com/embed/KX4E14UVn44?si=YbpPvtdqDtV7rjUo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+
+  <h3>
+    Ce que vous allez apprendre
+  </h3>
+  <div class="box">
+    <p> 
+      <i class='bx bx-check-circle'></i>
+       Les bases indispensables pour réussir en ligne
+    </p>
+    <p>
+      <i class='bx bx-check-circle'></i>
+      Comment créer un business en ligne rentable
+    </p>
+    <p>
+      <i class='bx bx-check-circle'></i>
+      Les stratégies pour attirer et convertir des clients
+    </p>
+    <p>
+      <i class='bx bx-check-circle'></i>
+      Les erreurs courantes qui font échouer les entrepreneurs
+    </p>
+    <p>
+      <i class='bx bx-check-circle'></i>
+      Comment structurer son projet pour une croissance durable
+    </p>
+  </div>
+  
+  <div class="bonus">
+    <h3>
+      Vos bonus exclusifs
+    </h3>
+    <div class="boxes">
+        <div class="box">
+            <div class="icon">
+              <i class='bx bx-gift' ></i>
+            </div>
+            <div class="txt">
+               Replay exclusif offert aux participants
+            </div>
+          </div>
+          <div class="box">
+           <div class="icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="award" class="lucide lucide-award text-primary mb-3" style="width: 48px; height: 48px;"><path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"></path><circle cx="12" cy="8" r="6"></circle></svg>
+        
+           </div>
+           <div class="txt">
+              Replay exclusif offert aux participants
+           </div>
+          </div>
+    </div>
+  </div>
+  
+<h3>
+    Ce qu'en disent nos participants
+</h3>
+
+ <div class="flex">
+    <div class="box">
+        <div class="content">
+            <div class="etoil">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" class="lucide lucide-star text-warning"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" class="lucide lucide-star text-warning"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" class="lucide lucide-star text-warning"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" class="lucide lucide-star text-warning"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" class="lucide lucide-star text-warning"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+            </div>
+            <br>
+    
+            <div>
+                بفضل هذه البرنامج التدريبي تحول مشروعي من الإفلاس إلى نجاح باهر
+    
+            </div>
+            <br>
+            <b>
+                Yousef A.
+            </b>
+            <br>
+            <br>
+            <div>
+                E-commerçant
+            </div>
+        </div>
+     </div>
+    
+     <div class="box">
+        <div class="content">
+            <div class="etoil">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" class="lucide lucide-star text-warning"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" class="lucide lucide-star text-warning"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" class="lucide lucide-star text-warning"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" class="lucide lucide-star text-warning"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" class="lucide lucide-star text-warning"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+            </div>
+            <br>
+            
+            <div>
+                 استراتيجيات ملموسة وأدوات لم يتكلم عنها أحد من قبل أتقدم بالشكر الجزيل للأستاذ الكبير عبد الرحيم خالد وجميع أعضاء العائلة الرقمية
+  
+            </div>
+            <br>
+            <b>
+                Hamza E.
+            </b>
+            <br>
+            <br>
+            <div>
+                E-commerçant
+            </div>
+        </div>
+     </div>
+    
+     <div class="box">
+        <div class="content">
+            <div class="etoil">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" class="lucide lucide-star text-warning"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" class="lucide lucide-star text-warning"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" class="lucide lucide-star text-warning"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" class="lucide lucide-star text-warning"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" class="lucide lucide-star text-warning"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+            </div>
+            <br>
+            
+            <div>
+               منهجية التدريب جد منظمة سواء على الجانب الأكاديمي أو الواقعي 
+ بفضل هذه الندوة تمكنت من هيكلة مشروعي بالشكل الصحيح و مضاعفة أرباحي خلال بضع أسابيع
+    
+            </div>
+            <br>
+            <b>
+                Mehdi C.
+            </b>
+            <br>
+            <br>
+            <div>
+                E-commerçant
+            </div>
+        </div>
+     </div>
+ </div>
+
+<div class="bonus">
+  <h3>Témoignages Audio</h3>
+  <div class="boxes">
+    <div class="box">
+      <div class="c-img">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhS9Skp5dVcC1qYDGRYWlkHcQll0bkn2th0xho1IektlPCHz_qE3zq5wsXdjIJ_L4XPu70OySEK2y2CinMSEeWeaiA-QO7_waLehkLSUeUvrbj1zguFoKb1acftodhNi91qpBCLW9TXcJDHBqQmrgpd1EaWzB1vAf9Og4lE9MyHeytgAE9GzFZFv0B_c75H/s320/WhatsApp%20Image%202025-03-20%20at%2022.26.02_3d9c9cce.jpg">
+      </div>
+      <div class="name">kaml</div>
+      <audio controls src="https://github.com/aminegold91/Aminegold91/blob/main/v.mp4"></audio>
+    </div>
+    
+    <div class="box">
+      <div class="c-img">
+         <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTpT-NGKYMWsZEfpOJFD1v77drfCcMLLzbTQAJJliJlNkxcP9NfEjFwWrKv8qVrJZNM3kXurWsEsAA4yvVBN2tOMfUS-Vc96wTn0qs4vG3q61xo-EirrJjizb2zECh2UOgSefb-FIouR-4S3k7Fuoqb5UjagOx4gfRhkwAiS76xxBN0Ox17iGMVRmXW03s/s320/WhatsApp%20Image%202025-03-20%20at%2022.26.00_6904190f.jpg">
+        </div>
+        <div class="name">soad</div>
+        <audio controls src="https://github.com/aminegold91/Aminegold91/blob/main/v.mp4"></audio>
+    </div>
+  </div>
+</div>
+
+<h3>Aperçu du Programme</h3>
+
+
+<div class="flexb">
+<div class="box-img">
+  <div class="img">
+    <img src="https://www.publicdomainpictures.net/pictures/160000/velka/ordinateur-de-bureau-pc-1456070535WEH.jpg" width="380">
+  </div>
+  <div class="titl">
+    أساسيات النجاح 
+  </div>
+  <p>
+       تعلم كيف تبني مشروع ناجح على الإنترنت، من تحديد الفكرة إلى إعداد خطة عمل فعّالة.
+  
+  </p>
+</div>
+<div class="box-img">
+  <div class="img">
+    <img src="https://th.bing.com/th/id/OIP.UP_OXO9Zd01_2Ap9fh40owHaE8?rs=1&pid=ImgDetMain" width="380">
+  </div>
+  <div class="titl">
+تجنب الأخطاء الشائعه  </div>
+  <p>
+  تعلم كيفية تجنب الأخطاء التي يقع فيها الكثير من رواد الأعمال على الإنترنت لضمان نجاح مشروعك واستدامته.  </p>
+</div>
+<div class="box-img">
+  <div class="img">
+    <img src="https://th.bing.com/th?id=OIP.fV0_vbpfmN2OJSvqiLBPLwHaE8&w=474&h=316&c=7&qlt=80&bgcl=fffffe&r=0&o=6&pid=23.1" width="380">
+  </div>
+  <div class="titl">
+استراتيجيات متقدمة   </div>
+  <p>
+ تعرف على كيفية جذب العملاء وتحويلهم باستخدام تقنيات التسويق الرقمي والإعلانات المدفوعة.  </p>
+</div>
+</div>
+
+<div class="footer" >
+  <h3>
+    النجاح في الإنترنيت، يحتاج إلى رؤية  واستراتيجية ثاقبة، وايضا الى المواكبة من أهل الإختصاص، والسيد عبد الرحيم خالد خبير رقمي غني عن التعريف. والإضافة في الميدان مضمونة معه
+  </h3>
+  <p>
+   واش مستعد تولي خبير فالنجاح عبر الإنترنت؟
+ما تضيعش هاد الفرصة باش تعلم استراتيجيات غادي تدير فرق فمشروعك!
+  </p>
+  <br />
+  <div class="form">
+    <input type="text" placeholder="Prénom"/>
+    <input type="text" placeholder="Nom"/>
+    <input type="email" placeholder="Email"/>
+    <input type="number" placeholder="Téléphone">
+    <button type="submit">
+      je m'inscris maintenant
+    </button>
+  </div>
+</div>
+
+
+  
+  <script src="main.js"></script>
+</body>
+</html>
