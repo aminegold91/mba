@@ -22,7 +22,7 @@
  function send(){
     let nember  = '+212620490769';
     var url = 'https://wa.me/' + nember + '?text=' + ' الاسم الكامل  : ' + nom + '%0a'
-          + 'رقم الهاتف  : ' + phone + '%0a'
+          + 'رقم الهاتف  : ' + phon + '%0a'
           + 'البريد الالكتروني : ' + email + '%0a' ;
           window.open(url , '_blanck').focus();
  }
