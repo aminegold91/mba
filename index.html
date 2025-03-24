@@ -25,6 +25,14 @@
 
 <body>
       
+  <div class="warnin">
+    <div class="icon">
+      <i class='bx bx-check-circle'></i>
+    </div>
+    <div class="par">
+      لقد تم التسجيل بنجاح
+    </div>
+  </div>
 
   <div class="top">
     <h1 dir='rtl'>
@@ -267,7 +275,7 @@
 </div>
 <div class="box-img">
   <div class="img">
-    <img src="2-3.jpg" width="380">
+    <img src="2-3.jpg" width="380" alt=""/>
   </div>
   <div class="titl">
 تجنب الأخطاء الشائعه  </div>
@@ -297,34 +305,21 @@
     أماكن محدودة تسجل الان بالمجان
     </p>
   <br />
-  <div class="form">
-    <!-- <input type="text" placeholder="  "/> -->
-    <input type="text" placeholder=" الاسم الكامل"/>
-    <input type="email" placeholder="البريد الالكتروني
-    "/>
-    <input type="text" placeholder="الهاتف">
+  <form class="form">
+    <input type="text" class="nom" required placeholder=" الاسم الكامل  " />
+    <input type="email" class="email" required placeholder="البريد الالكتروني"/>
+    <input type="text" class="phon" required placeholder="الهاتف">
     <button id="tbm" type="submit" class="btn">
       سجل الآن      
     </button>
-
-
-
-
-  <script>
-    // let tobtm = document.querySelector('.tobottom');
-    let btn= document.querySelector('.btn');
-    btn.onclick = function(){
-      alert('achno darti  khassarti hadchi hhhhh 🤪🤪🤪🤪🤪')
-    }
-  </script>
-
-  </div>
+  </form>
 </div>
 
 
-  
-  <script>
-    let tobottom = document.querySelector('.tobottom')
+  <script src="main.js">
+   
   </script>
+
+  
 </body>
 </html>

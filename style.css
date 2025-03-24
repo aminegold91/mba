@@ -9,6 +9,54 @@
 html {
     scroll-behavior: smooth;
 }
+.warnin{
+  position: fixed;
+  width: 350px;
+  /* height: 30px; */
+  z-index: 1000;
+  background-color: rgb(56, 215, 162);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: none;
+  align-items: center;
+  padding: 15px;
+  justify-content: center;
+  border-radius: 8px;
+  animation: anime 2s 1;
+  transition: 1.5s all linear;
+  opacity: 0;
+  
+}
+/* .warnin::before{
+  content: "";
+  position: fixed;
+  background-color: rgba(0, 0, 0, .1);
+  width: 100%;
+  height: 100vh;
+} */
+@keyframes anime {
+  0%{
+    height: 80px;
+  }
+  50%{
+    height: 100px;
+  }
+  100%{
+    height: 80px;
+    opacity: 1;
+  }
+}
+.warnin .icon{
+  /* background-color: blue; */
+  margin-left: 10px;
+  font-size: 24px;
+  color: white;
+}
+.warnin .par{
+  /* background-color: blue; */
+  color: white;
+}
 .top{
   width: 100%;
   height: 100vh; 
