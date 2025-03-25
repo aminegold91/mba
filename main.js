@@ -1,5 +1,3 @@
- // let tobtm = document.querySelector('.tobottom');
-
 
 
  let nom = document.querySelector('.nom');
@@ -12,17 +10,9 @@
  btn.onclick = function(){
     if(nom.value != '' && email.value != '' && phon.value != ''){
         warni.style.display='flex';
-        send();
     }
     else{
         warni.style.display='none';
+        alert('المعدرة ! المرجو إملاء الاستمارة و شكرا');
     }
-    
- }
- function send(){
-    let nember  = '+212620490769';
-    var url = 'https://wa.me/' + nember + '?text=' + ' الاسم الكامل  : ' + nom + '%0a'
-          + 'رقم الهاتف  : ' + phone + '%0a'
-          + 'البريد الالكتروني : ' + email + '%0a' ;
-          window.open(url , '_blanck').focus();
  }
