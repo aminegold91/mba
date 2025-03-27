@@ -3,13 +3,14 @@
  let nom = document.querySelector('.nom');
  let email = document.querySelector('.email');
  let phon = document.querySelector('.phon');
- 
+ let bg = document.querySelector('.bg');
  let warni = document.querySelector('.warnin');
 //  console.log(nom,email,phon);
  let btn= document.querySelector('.btn');
  btn.onclick = function(){
     if(nom.value != '' && email.value != '' && phon.value != ''){
         warni.style.display='flex';
+        bg.style.display='flex';
     }
     else{
         warni.style.display='none';
