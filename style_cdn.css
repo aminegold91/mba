@@ -1,5 +1,173 @@
-.btn-red {
-  background: red;
-  color: white;
-  padding: 10px;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.bg-info{
+    background: #1673E3;
+}
+.bg-black {
+    background: #000;
+}
+.bg-white {
+    background: #fff;
+}
+.bg-danger {
+    background: red;
+}
+.bg-green {
+    background: green;
+}
+.bg-warning {
+    background: #E3B216;
+}
+.color-red{
+    color: red;
+}
+.color-green {
+    color: green;
+}
+.color-blue {
+    color: blue;
+}
+.color-white {
+    color: white;
+}
+.p-10{
+    padding: 10px;
+}
+.p-20 {
+    padding: 10px;
+}
+.p-30{
+    padding: 30px;
+}
+.pt-10{
+    padding-top: 10px;
+}
+.pt-20 {
+    padding-top: 20px;
+}
+.pt-30 {
+    padding-top: 30px;
+}
+.pr-10{
+    padding-right: 10px;
+}
+.pr-20 {
+    padding-right: 20px;
+}
+.pr-30 {
+    padding-right: 30px;
+}
+.pl-10{
+    padding-left: 10px;
+}
+.pl-20{
+    padding-left: 20px;
+}
+.pl-30{
+    padding-left: 30px;
+}
+
+.pb-10{
+    padding-bottom: 10px;
+}
+.pb-20{
+    padding-bottom: 20px;
+}
+.pb-30{
+    padding-bottom: 30px;
+}
+.mr-10{
+    margin: 10px;
+}
+.mr-20 {
+    margin: 20px;
+}
+.mr-30 {
+    margin: 30px;
+}
+.b{
+    border: 1px solid;
+}
+.bt{
+    border-top: 1px solid;
+}
+.br{
+    border-right: 1px solid;
+}
+.bb{
+    border-bottom: 1px solid;
+}
+.bl{
+    border-left: 1px solid;
+}
+.b-red{
+    border-color: red;
+}
+.b-none{
+    border: none;
+}
+.b-1{
+    border-width: 1px;
+}
+.b-2{
+    border-width: 2px;
+}
+.b-3{
+    border-width: 3px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    backdrop-filter: var(--bg-nav);
+    background: rgba(0, 0, 0, .1);
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+nav .c-logo{
+    width: 120px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid;
+}
+nav .c-logo a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .c-logo a img{
+    width: 100%;
+    
+}
+nav .menu ul li{
+    display: inline;
+}
+nav .menu ul li a{
+    padding: 7px 10px;
+    margin: 3px 5px;
+}
+nav .menu ul li a:hover{
+    border-bottom: 3px solid;
+    background: #bbb;
+    color: #000;
 }
